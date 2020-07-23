@@ -283,9 +283,9 @@ disqus:
 gitalk:
   clientID: f414c5aaa793c311ed8f                     # GitHub Application Client ID
   clientSecret: 87ec0f731f64f2e802b5f9b15de933fb0f201ae7              # GitHub Application Client Secret
-  repo: https://github.com/R-craft/R-craft.github.io                         # The repo to store comments
+  repo: R-craft.github.io                         # The repo to store comments
   owner:  R-craft                      # GitHub repository owner. Can be personal user or organization.
-  admin: ['name']               # GitHub repo owner and collaborators, only these guys can initialize github issues, should be like ['admin'] or ['admin1','admin2']
+  admin: ['R-craft ']               # GitHub repo owner and collaborators, only these guys can initialize github issues, should be like ['admin'] or ['admin1','admin2']
   id: location.pathname         # The unique id of the page. Length must less than 50.
   language: zh-CN               # Localization language key, en, zh-CN and zh-TW are currently available.
   labels: ['Gitalk']            # GitHub issue labels.
